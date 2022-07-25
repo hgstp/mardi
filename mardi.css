@@ -1,0 +1,297 @@
+a {
+  font-weight:bold;
+
+  
+}
+
+
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  padding-right: 4em;
+  font-size: 90%;
+}
+
+.huge-code .remark-code { /*Change made here*/
+  font-size: 200%;
+}
+
+.small-code .remark-code { /*Change made here*/
+  font-size: 70%;
+}
+
+.tiny-code .remark-code { /*Change made here*/
+  font-size: 50%;
+}
+
+
+
+.hljs-github .hljs {
+    background: #fff7bc;
+}
+
+
+/* table color */
+
+
+ tr:nth-child(even) {
+  background-color: #d9dad8;
+  color: #181818;
+}
+
+ tr:nth-child(odd) {
+  background-color: #c1c2c0;
+  color:#181818;
+}
+
+th {
+  background-color: #606160;
+  color: #f2f3f0;
+}
+
+
+
+
+/* inverse content boxes */
+
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  font-weight: 500;
+  border-radius: 15px;
+    margin: 0 0 5px;
+    overflow: hidden;
+    padding: 20px;
+    width: 90%;
+
+}
+
+
+/* content boxes*/
+
+.content-box-orange{
+ background-color: #E37222;
+ color: #ffffff;
+ font-weight: bold;
+ border-radius: 15px;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    width: 95%;
+}
+
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  color: #000000;
+  width: 95%;
+
+}
+
+/* special boxes*/
+
+
+.content-box-purple,  .inverse .content-box-purple {
+  background-color: #8856a7;
+ color: #ffffff;
+  font-weight: bold;
+
+}
+
+
+.content-box-grey, .inverse .content-box-grey{
+ border-radius: 15px;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 10px;
+    width: 95%;
+}
+
+
+
+
+
+
+/* Various left and right split columns*/
+
+.pull-left-70 { float: left; width: 66.5%; }
+.pull-right-30 { float: right; width: 28.5%; }
+.pull-right-30 ~ * { clear: both; }
+
+.pull-left-60 { float: left; width: 57%; }
+.pull-right-40 { float: right; width: 38%; }
+.pull-right-40 ~ * { clear: both; }
+
+.pull-left-50 { float: left; width: 47.5%; }
+.pull-right-50 { float: right; width: 47.5%; }
+.pull-right-50 ~ * { clear: both; }
+
+.pull-left-40 { float: left; width: 38%; }
+.pull-right-60 { float: right; width: 57%; }
+.pull-right-60 ~ * { clear: both; }
+
+.pull-left-30 { float: left; width: 28.5%; }
+.pull-right-70 { float: right; width: 66.5%; }
+.pull-right-70 ~ * { clear: both; }
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ * {
+  clear: both;
+}
+
+
+/* different font sizes */
+
+.caption {
+  text-align: center;
+  font-size: .8rem;
+}
+
+.huge { 
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.large { 
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.small {
+  font-size:85%;
+}
+
+
+.tiny {
+  font-size:70%;
+}
+
+.smallremark{
+  font-size:70%;
+}
+
+
+
+/* title slide ----------------------------------- 
+*/ 
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+
+
+
+
+/* MathJax ----------------------------------- 
+*/ 
+
+.MathJax_Display  {
+    color: #D55E00;
+     font-size: 1.1em;
+     font-weight: bold;
+}
+
+.inverse .MathJax_Display  {
+    color:  #D55E00;
+     font-size: 1.05em;
+     font-weight: bold;
+}
+
+.inverse .content-box-grey .MathJax_Display  {
+    color: #D55E00;
+     font-size: 1.05em;
+     font-weight: bold;
+}
+
+.inverse .content-box-gray .MathJax_Display  {
+    color: #D55E00;
+     font-size: 1.05em;
+     font-weight: bold;
+}
+
+
+
+
+/* colors ----------------------------------- 
+*/ 
+
+
+/* Points of view: Color blindness, Bang Wong, Nature, May 2011*/
+
+
+
+
+
+.ob    /* orange */
+{
+    color: #E69F00;
+    font-size: 1.05em;
+    font-weight:bold;
+}
+
+
+.sbb     /* sky blue */
+{
+    color: #56B4E9;
+  font-size: 1.05em;
+ font-weight: bold;
+}
+
+.gb     /* bluish green */
+{
+    color: #009E73;
+   font-size: 1.05em;
+   font-weight: bold;
+}
+
+
+.yb    /* yellow */
+{
+  color:   #EFBE43 ;
+  font-size: 1.05em;
+  font-weight:bold;
+}
+
+
+.bb     /* blue */ 
+{
+    color: #0072B2;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+
+.vb      /* vermillon - zinnober */
+{
+  color: #D55E00;
+  font-size: 1.05em;
+  font-weight: bold;
+}
+
+  
+  
+.pb     /* reddish purple */
+{
+  color: #CC79A7;
+  font-size: 1.05em;
+  font-weight: 900;
+}
+
+

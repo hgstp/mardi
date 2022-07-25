@@ -1,0 +1,82 @@
+
+
+### TA3 `r emo::ji("heart")` Math and Fair Data
+
+
+.pull-left-30[
+
+```{r, echo=FALSE}
+knitr::include_graphics("figures/LMU_Logo.png")
+```
+
+```{r, echo=FALSE, out.width="95%"}
+knitr::include_graphics("figures/TUM_Logo_extern_ot_RGB_p.png")
+
+```    
+
+```{r, echo=FALSE, out.width="80%"}
+knitr::include_graphics("figures/wiaslogo.png")
+
+```    
+
+
+]
+
+.pull-right-70[
+<br>
+
+__Bernd Bischl__, Giuseppe Casalicchio, Sebastian Fischer
+<br>
+<br>
+<br>
+<br>
+<br>
+
+__Mathias Drton__, Stephan Haug, Oleksandr Zadorozhnyi
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+__Karsten Tabelow__, ...  
+]
+
+
+???
+
+Drton
+.small[Chair of Mathematical Statistics    
+MaRDI Co-Spokesperson     
+Core Member of MDSI    
+ELLIS Munich Faculty]
+
+Bischl  
+.small[
+Chair of Statistical Learning & Data Science    
+MaRDI Co-Spokesperson     
+Co-Director of MCML    
+ELLIS Munich Faculty]
+
+---
+
+### Work program of TA3
+
+.yb[M3.1: Library of Curated Benchmark Datasets]    
+.small[__Aim:__ provide _task-specific_ libraries of curated benchmark datasets following FAIR principles ]
+
+
+.yb[M3.2: Library of Statistical Analyses]    
+.small[__Aim:__ provide exhaustive statistical analysis of the datasets from M3.1, which will be demos that connect the data to statistical methods] 
+
+.yb[M3.3: Empirical Analysis of Machine Learning Experiments]    
+.small[__Aim:__ provide (tools to analyze) results of benchmark experiments of the datasets from M3.1; summarize common pitfalls and list guideline to avoid those pitfalls]
+
+.yb[M3.4: Standards for Peer Review of Numerical Experimentation]     
+.small[__Aim:__ establish standards for peer-review of numerical experiments as well as the software code with which the experiments are conducted]
+
+
+.content-box-grey[
+M3.1 to M3.3 use, adapt OpenML, create a connection to the MaRDI portal and make all results extendable by the community
+]
