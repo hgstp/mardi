@@ -111,9 +111,9 @@ Partner: see MaRDI proposal 2021, case studies TA4; e.g. Dorothea Iglezakis is w
 .content-box-grey[
 __Aim __of the .yb[NFDI] is
 
-+ to systematically catalogize research data resulting from publicly funded research, to secure these for the future and make them findable and accessible
++ to systematically __catalogize research data__ resulting from publicly funded research, to secure these for the future and make them __findable__ and __accessible__
 
-+ to develop and establish standards in research-data management and guarantee the (inter-)national linkage of research data
++ to develop and __establish standards in research-data management__ and guarantee the (inter-)national linkage of research data
 
 ]
 

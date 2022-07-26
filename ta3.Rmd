@@ -4,21 +4,21 @@
 
 
 .pull-left-30[
-
+.center[
 ```{r, echo=FALSE}
 knitr::include_graphics("figures/LMU_Logo.png")
 ```
 
-```{r, echo=FALSE, out.width="95%"}
+```{r, echo=FALSE, out.width="90%"}
 knitr::include_graphics("figures/TUM_Logo_extern_ot_RGB_p.png")
 
 ```    
 
-```{r, echo=FALSE, out.width="80%"}
+```{r, echo=FALSE, out.width="75%"}
 knitr::include_graphics("figures/wiaslogo.png")
 
 ```    
-
+]
 
 ]
 
@@ -40,7 +40,7 @@ __Mathias Drton__, Stephan Haug, Oleksandr Zadorozhnyi
 <br>
 <br>
 
-__Karsten Tabelow__, ...  
+__Karsten Tabelow__, N.N. 
 ]
 
 
@@ -76,7 +76,17 @@ ELLIS Munich Faculty]
 .yb[M3.4: Standards for Peer Review of Numerical Experimentation]     
 .small[__Aim:__ establish standards for peer-review of numerical experiments as well as the software code with which the experiments are conducted]
 
+---
 
-.content-box-grey[
-M3.1 to M3.3 use, adapt OpenML, create a connection to the MaRDI portal and make all results extendable by the community
-]
+### Work program of TA3
+
+
+__M3.1 to M3.3__ use, adapt [OpenML](https://new.openml.org/)
+
+```{r, echo=FALSE}
+knitr::include_url("https://new.openml.org/", height = "350px")
+```
+
+
+create a connection to the [MaRDI portal](https://portal.mardi4nfdi.de/wiki/Portal) and make all results extendable by the community.
+
