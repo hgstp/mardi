@@ -394,6 +394,8 @@ MaRDI Twitter https://twitter.com/mardi4nfdi
 
 + MaRDI-Workshop on Digital Humanities and Math, November 2022 in Berlin
 
++ __MaRDI Session at Statistical Computing 2023__
+
 + Participation in the creation of an NFDI Basisdienste-Konsortium
 
 
