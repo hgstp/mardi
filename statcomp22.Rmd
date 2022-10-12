@@ -1,6 +1,9 @@
 ---
 title: "MaRDI"
 subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+author: 
+  - "Yihui Xie"
+  - "Garrick Aden-Buie"
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
@@ -53,8 +56,9 @@ class: title-slide
 
 .pull-left[
 <div class="bottom">
-<p> Mathias Drton </p>
+<p> Stephan Haug </p>
 <p> Technical University of Munich </p>
+<p> Statistical Computing 2022, July 27 </p>
 </div>
 ]
 
@@ -291,21 +295,9 @@ Text und Illustration: MaRDI proposal 2021, Seite 28ff.
 
 ---
 
+```{r child="ta3.Rmd"}
 
-### Work program of TA3
-
-.yb[M3.1: Library of Curated Benchmark Datasets]    
-.small[__Aim:__ provide _task-specific_ libraries of curated benchmark datasets following FAIR principles ]
-
-
-.yb[M3.2: Library of Statistical Analyses]    
-.small[__Aim:__ provide exhaustive statistical analysis of the datasets from M3.1, which will be demos that connect the data to statistical methods] 
-
-.yb[M3.3: Empirical Analysis of Machine Learning Experiments]    
-.small[__Aim:__ provide (tools to analyze) results of benchmark experiments of the datasets from M3.1; summarize common pitfalls and list guideline to avoid those pitfalls]
-
-.yb[M3.4: Standards for Peer Review of Numerical Experimentation]     
-.small[__Aim:__ establish standards for peer-review of numerical experiments as well as the software code with which the experiments are conducted]
+```
 
 ---
 
@@ -359,6 +351,79 @@ References
 Screenshot Portal, 2022
 Knowledge graph rendering: Christian Himpe, 2022
 Picture Kickoff-Workshop: Thomas Endler, November 2021
+
+---
+
+### MaRDI so far
+
++ joint publications in DMV Mitteilungen and the GAMM Newsletter
+
++ TA1 rolls out a first technical review process
+
++ TA2 implements a knowledge graph front end
++ TA3 and TA4 have internal kick-off meetings in Dec. 2021 and March 2022
+
++ first implementation of a formula search in the portal by TA5
+
++ publication of an article discussing FAIRness of their local 
+
++ research-data repository http://mathrepo.mis.mpg.de by TA6
+
++ build up of the internal consortial infrastructure by TA7
+
+
+???
+
+
+[Here you can add up-to-date news: publications, workshops, which events MaRDI people attended, status quo of the Portal and the webpage, one recent result of each task area, or similar. The list you currently is up-to-date as of March 2022.]
+
+References
+Internal Newsletter MaRDIgest via mardi2020 mailinglist mardi2020@listserv.dfn.de 
+MaRDienstag recordings and sentences https://cloud.mardi4nfdi.de/index.php/f/1468
+MaRDI Twitter https://twitter.com/mardi4nfdi
+
+---
+
+### MaRDI in the future
+
+
+.pull-left[
++ Minisymposium and stall at the DMV Jahrestagung, September 2022 in Berlin
+
++ MaRDI-Workshop on Scientific Computing, October 2022 in Münster
+
++ MaRDI-Workshop on Digital Humanities and Math, November 2022 in Berlin
+
++ __MaRDI Session at Statistical Computing 2023__
+
++ Participation in the creation of an NFDI Basisdienste-Konsortium
+
+
+<br>
+
+
+[www.mardi4nfdi.de](www.mardi4nfdi.de)
+
+]
+
+
+.pull-right[
+
+```{r, echo=FALSE}
+knitr::include_graphics("figures/Postkarte-02.png")
+```
+
+
+]
+???
+
+
+[Here you can add yourself: milestones, workshops, presence at events, next steps for Portal/Website, one current goal of each TA, e.g.]
+
+References
+Internal Newsletter MaRDIgest via mardi2020 list mardi2020@listserv.dfn.de 
+MaRDienstag recordings and sentences https://cloud.mardi4nfdi.de/index.php/f/1468
+Calendar on the MaRDI Website https://www.mardi4nfdi.de/events/meetings
 
 
 
