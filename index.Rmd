@@ -53,7 +53,7 @@ class: title-slide
 
 .pull-left[
 <div class="bottom">
-<p> Mathias Drton </p>
+<p>  Stephan Haug</p>
 <p> Technical University of Munich </p>
 </div>
 ]
@@ -372,6 +372,7 @@ Slides are based on work from the
 Mathematical Data Consultant in MaRDI [Christiane Görgen](https://sites.google.com/view/goergen) 
 
 
+<!--
 <br>
 .small[
 and created via the R packages:
@@ -380,3 +381,4 @@ and created via the R packages:
 [gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
 
 ]
+--> 
